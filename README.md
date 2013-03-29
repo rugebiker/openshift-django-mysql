@@ -1,7 +1,7 @@
 Openshift + Django + MySQL
 ==========================
 
-This is a modified version of the original "openshift/django-example" provided by openshift. You can view the original example code here:
+This is a modified version of the original "openshift/django-example" provided by openshift, so it uses the MySQL database instead of SQLite. You can view the original example code here:
 https://github.com/openshift/django-example
 
 Run this code on openshift:
@@ -13,7 +13,7 @@ Create a python-2.6 application
 
 Add the MySQL cartridge.
 
-    rhc cartridge add mysql-5.1 -a MyApp
+    rhc cartridge add mysql-5.1 -a django 
 
 Add this upstream repo
 
